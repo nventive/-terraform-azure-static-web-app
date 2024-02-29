@@ -31,7 +31,7 @@ resource "azurerm_resource_group" "example" {
 }
 
 module "static_web_app" {
-  source = "nventive/static-web-app/azure"
+  source = "nventive/static-web-app/azurerm"
   # We recommend pinning every module to a specific version
   # version = "x.x.x"
 
